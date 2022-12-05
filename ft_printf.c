@@ -20,7 +20,7 @@ int	ft_call(char c, va_list args)
 	if (c == 'd')
 		l += ft_putnbr(va_arg(args, int));
 	if (c == 'u')
-		l += ft_putunbr(va_arg(args, int));
+		l += ft_putunbr(va_arg(args, unsigned int));
 	if (c == 'i')
 		l += ft_putnbr(va_arg(args, int));
 	if (c == 'c')
